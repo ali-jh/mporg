@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
         <Navbar/>
-        <Routes>
-            <Route path='/' component={Landing}/>
-            <Route path='/login' component={Login}/>
-        </Routes>
+        <Landing />
+        
+          <Route path='/' component={Landing}/>
+          <Route path='/login' component={Login}/>
     </div>
   )
 }
